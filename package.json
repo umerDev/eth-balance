@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "name": "eth-balance",
+  "version": "1.0.0",
+  "description": "get balance for eth address​",
+  "main": "main.js",
+  "module": "commonjs",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/main.js"
+  },
+  "author": "Umer",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fast-csv": "^5.0.1",
+    "web3": "^4.8.0"
+  }
+}
